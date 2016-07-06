@@ -1,8 +1,10 @@
 side = raw_input("Enter the side value :")
 
+side = int(side)
+
 def area_of_square(side):
 	area = side * side
-	return "Area is :%s" % (area)
+	return "Area is %s" % (area)
 
-area_of_square(side)
+print area_of_square(side)
 
